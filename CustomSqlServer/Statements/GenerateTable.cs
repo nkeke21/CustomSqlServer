@@ -8,6 +8,7 @@ namespace CustomSqlServer.LanguageAnalyzer
 {
     public static class GenerateTable
     {
+        // Gio yle xar
         public static void GenerateTables(string query)
         {
             var lexer = new SqlLexer(query);
