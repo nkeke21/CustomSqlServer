@@ -11,7 +11,7 @@ namespace CustomSqlServer.LanguageAnalyzer
         private static readonly Regex IdentifierRegex = new Regex(@"[A-Za-Z0-9_][A-Za-z0-9_]*");
         private List<SqlToken> _tokens = new List<SqlToken>();
 
-        private SqlLexer(string input) 
+        public SqlLexer(string input) 
         {
             _input = input;
             _position = 0;
