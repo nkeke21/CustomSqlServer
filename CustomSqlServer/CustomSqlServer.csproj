@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LanguageAnalyzer\Lexer.cs" />
+    <Compile Include="LanguageAnalyzer\SqlLexer.cs" />
     <Compile Include="LanguageAnalyzer\SqlToken.cs" />
     <Compile Include="LanguageAnalyzer\SqlTokenKind.cs" />
     <Compile Include="Program.cs" />
